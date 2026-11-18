@@ -1,4 +1,12 @@
-# 🤖 DIO Agent
+# GuardAI — revisão defensiva com DIO Agent
+
+Especialização do DIO Agent para revisão defensiva de código e configuração. O exemplo usa consultas parametrizadas em SQLite.
+
+**Arquivos principais**
+
+- [skills/vulnerability-analysis/SKILL.md](<skills/vulnerability-analysis/SKILL.md>)
+- [agent/knowledge/security-basics.md](<agent/knowledge/security-basics.md>)
+- [examples/guardai/app.py](<examples/guardai/app.py>)
 
 > Seu mentor com Inteligência Artificial para aprender mais e melhor na [DIO](https://dio.me).
 
