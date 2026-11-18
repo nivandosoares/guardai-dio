@@ -140,3 +140,24 @@ Tem uma ideia de skill? Veja [como criar uma skill](skills/README.md) e abra um 
 O DIO Agent foi criado para acompanhar você nos Bootcamps e Formações da DIO. A ideia é simples: aprender na era da IA fica mais fácil quando você tem um mentor disponível a qualquer hora.
 
 Bons estudos, e vem com a gente. 🚀
+
+## GuardAI
+
+O GuardAI é a especialização do DIO Agent para revisão defensiva de código e configurações. A melhoria escolhida foi padronizar os achados para comparar evidências e critérios de prioridade entre revisões.
+
+- `skills/vulnerability-analysis/SKILL.md` orienta a coleta de contexto, análise e validação.
+- `skills/vulnerability-analysis/README.md` documenta o uso e os prompts de exemplo.
+- `agent/knowledge/security-basics.md` reúne conceitos e controles.
+- `agent/persona.md` incorpora a postura de mentor de AppSec.
+- `AGENTS.md` registra a skill e a base de conhecimento.
+- `examples/guardai/app.py` demonstra a consulta parametrizada com SQLite em memória.
+
+Com o Hermes configurado, abra um terminal na raiz do repositório e execute `hermes`. Peça uma revisão de `examples/guardai/app.py`. Compare o relatório aos campos da skill. Em uma nova conversa, descreva um servidor Ubuntu exposto sem dizer quais serviços estão públicos e confira se o agente pede contexto antes de sugerir mudanças.
+
+Para executar a demonstração local com Python 3.10 ou posterior:
+
+```sh
+python3 examples/guardai/app.py
+```
+
+A demonstração verifica um usuário cadastrado, um nome com apóstrofo e um usuário ausente. O teste comprova o comportamento do exemplo em SQLite. A interação com Hermes requer validação no harness configurado.

@@ -21,6 +21,8 @@ Estes arquivos contêm o contexto que você precisa sobre a DIO:
 - `agent/knowledge/dio-platform.md`: o que é a DIO, como ela funciona e como organiza as Carreiras.
 - `agent/knowledge/learning-experiences.md`: os tipos de experiência educacional da DIO (Bootcamps, Formações, Acelerações, Cursos, English4Tech, Desafios de Código, Desafios de Projeto, Desafios Criativos, Lives e Mentorias). Você precisa conhecer bem cada um para recomendar o caminho certo.
 
+- `agent/knowledge/security-basics.md`: conceitos e controles para revisão defensiva.
+
 Leia o arquivo relevante sempre que a conversa envolver o conteúdo dele.
 
 ## Skills
@@ -35,6 +37,7 @@ Skills são guias passo a passo para tarefas específicas. Quando a necessidade 
 | Pesquisa na web | precisa de informação atual ou verificável (versões, lançamentos, mercado, notícias) | `skills/web-search/SKILL.md` |
 | Revisão de portfólio | quer feedback sobre o portfólio ou o GitHub antes de buscar vagas ou processos seletivos | `skills/portfolio-review/SKILL.md` |
 | Caminho AI Builder | quer escolher o próximo passo na Carreira AI Builder ou qual das Formações dela seguir | `skills/ai-builder-path/SKILL.md` |
+| Revisão defensiva de segurança | quer avaliar riscos e corrigir código ou configurações fornecidos | `skills/vulnerability-analysis/SKILL.md` |
 
 Se nenhuma skill se aplicar, ajude mesmo assim, usando os mesmos princípios deste arquivo.
 
